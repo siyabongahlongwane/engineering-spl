@@ -5,80 +5,199 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <title>E.R.S | Home</title>
 </head>
 
 <body>
-    <main>
-        <img class="banner" src="./img/flag_2.webp" alt="SA Flag">
+    <main style="position: relative" id="home">
+        <div class="top-bar flex space-between col align-items-center">
+            <span><i class="fa fa-phone blue-col"></i> +27718925731 </span>
+            <div class="address flex col align-items-center align-center">
+                <span>
+                    <i class="fa fa-map-marker blue-col"></i>
+                    84 Anker Street, Ext 1, Brakpan, Johannesburg, South Africa
+                </span>
+            </div>
+            <span></span>
+        </div>
+        <header>
+            <nav class="flex space-between">
+                <h1 class="blue-color logo">E.R.S</h1>
+                <ul class="flex align-center align-items-center desktop-menu">
+                    <li><a class="no-deco" href="#home">Home</a> </li>
+                    <li><a class="no-deco" href="#machines">Machines</a> </li>
+                    <li><a class="no-deco" href="#admin">Admin</a> </li>
+                    <li><a class="no-deco" href="#gallery">Gallery</a> </li>
+                    <li><a class="no-deco" href="#contact">Contact Us</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="banner flex align-center">
+            <div class="banner-text align-center">
+                <h1>Welcome to </h1>
+                <h2>Engineering Reliable Supplier</h2>
+                <h3>We specialize in rental & supplying of a range of machines</h3>
+            </div>
+        </div>
         <section class="content">
             <div class="content-wrapper">
-                <div class="">
-                    <div class="align-center">
-                        <h1 class="company">E.R.S</h1>
-                        <h3 class="underline">Engineering Reliable Supplier</h3>
-                        <h3>Based in Brakpan, 84 Anker Street, Ext 1 Johannesburg, South Africa</h3>
-                        <h3>E.R.S : is specializing in rental & supplying of a range of machines, such as :</h3>
-                    </div>
-                    <div class="flex">
-                        <div class="placeholder"></div>
-                        <h3 class="align-left">Mining machines :</h3>
-                    </div>
-                </div>
-                <div class="machines">
-                    <div class="machine-list">
-                        <div class="left-list">
-                            <span>- Excavators</span>
-                            <span>- Articulated dump trucks</span>
-                            <span>- Dozers</span>
-                            <span>- Graders</span>
-                            <span>- Loaders</span>
-                            <span>- Compactors</span>
-                            <span>- Backhoes</span>
-                            <span>- Tippers (10 or 12 Wheels)</span>
-                            <span>- Agricultural tractors</span>
+                <h1 class="align-center machines-title" id="machines">Our Machines</h1>
+
+                <div class="card-wrapper flex">
+                    <div class="flex space-between cards col">
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-excavator-64.png" width="40px" height="40px"
+                                alt="Excavators">
+                            <span>Excavators</span>
                         </div>
-                        <div class="right-list">
-                            <span>- Extra long flat bed trucks</span>
-                            <span>- Agricultural accessories machines</span>
-                            <span>- Buses (60 to 65, 81 seats)</span>
-                            <span>- Mini bus sprinter (Mercedes)</span>
-                            <span>- (IVECO)</span>
-                            <span>- (Brand new, second hand)</span>
-                            <span>- Diesel & Petrol</span>
-                            <span>- Sulphur granular & sulphuric acid</span>
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-dump-truck-96.png" width="40px" height="40px" alt="Articulated dump trucks
+                                ">
+                            <span>Articulated dump trucks
+                            </span>
+                        </div>
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-bulldozer-64.png" width="40px" height="40px"
+                                alt="Dozers">
+                            <span>Dozers</span>
+                        </div>
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-grader-64.png" width="40px" height="40px"
+                                alt="Graders">
+                            <span>Graders</span>
                         </div>
                     </div>
+
+                    <div class="flex space-between cards col">
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-loader-64.png" width="40px" height="40px"
+                                alt="Loaders">
+                            <span>Loaders</span>
+                        </div>
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-compactor-91.png" width="40px" height="40px" alt="Compactors
+                                ">
+                            <span>Compactors
+                            </span>
+                        </div>
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-backhoe-64.png" width="40px" height="40px"
+                                alt="Backhoes">
+                            <span>Backhoes</span>
+                        </div>
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-truck-64.png" width="40px" height="40px"
+                                alt="Tippers(10 or 12 Wheels)">
+                            <span>Tippers<br>
+                                <span>(10 or 12 Wheels)</span></span>
+                        </div>
+                    </div>
+
+                    <div class="flex space-between cards col">
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-tractor-64.png" width="40px" height="40px"
+                                alt="Agricultural tractors">
+                            <span>Agricultural tractors</span>
+                        </div>
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-arrow-91.png" width="40px" height="40px" alt="Extra long flat bed trucks
+                                ">
+                            <span>Extra long flat bed trucks
+                            </span>
+                        </div>
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-harvester-48.png" width="40px" height="40px" alt="Agricultural accessories machines
+">
+                            <span>Agricultural accessories machines
+                            </span>
+                        </div>
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-acid-flask-64.png" width="40px" height="40px"
+                                alt="Graders">
+                            <span>Sulphur granular & sulphuric acid</span>
+                        </div>
+                    </div>
+
+                    <div class="flex space-between cards col">
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-bus-48.png" width="40px" height="40px"
+                                alt="Buses">
+                            <span>Buses <br> (60 to 65, 81 seats)</span>
+                        </div>
+
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-shuttle-bus-48.png" width="40px" height="40px"
+                                alt="Mini bus sprinter (Mercedes)
+                            ">
+                            <span>Mini bus sprinter <br> (Mercedes)
+                            </span>
+                        </div>
+
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-shuttle-bus-48.png" width="40px" height="40px"
+                                alt="IVECO
+                            ">
+                            <span>IVECO
+                            </span>
+                        </div>
+                        <div class="card glow flex align-items-center gap-10px">
+                            <img class="icon" src="./img/icons/icons8-diesel-64.png" width="40px" height="40px" alt="Diesel & Petrol
+                                ">
+                            <span>Diesel & Petrol
+                            </span>
+                        </div>
+                    </div>
                 </div>
+
 
                 <div class="admin-area flex gap-1">
-                    <h3 class="underline align-center">Administration</h3>
-                    <div class="box">1.
-                        <span>General Director</span>
-                    </div>
-                    <div class="arrow">
-                        <img class="arrow" src="./img/arrow.png" alt="Arrow">
-                    </div>
-                    <div class="box">2.
-                        <span>Operations Manager</span>
-                    </div>
-                    <div class="arrow">
-                        <img class="arrow" src="./img/arrow.png" alt="Arrow">
-                    </div>
-                    <div class="box">3.
-                        <span>General Secretary</span>
+                    <h3 class="underline align-center machines-title" id="admin">Administration</h3>
+                    <div class="flex width-80 col">
+                        <div class="width-49 block">
+                            <div class="box glow">1.
+                                <span>General Director</span>
+                            </div>
+                            <div class="arrow">
+                                <img class="arrow" src="./img/arrow.png" alt="Arrow">
+                            </div>
+                            <div class="box glow">2.
+                                <span>Operations Manager</span>
+                            </div>
+                            <div class="arrow">
+                                <img class="arrow" src="./img/arrow.png" alt="Arrow">
+                            </div>
+                            <div class="box glow">3.
+                                <span>General Secretary</span>
+                            </div>
+                        </div>
+                        <div class="duties">
+                            <h3 class="space-10px">Duties</h3>
+                            <div class="space-10px">
+                                <p>- Correspondence</p> <br>
+                                <p>- Collecting & updating - daily reports</p> <br>
+                                <p>- Database</p> <br>
+                                <p>- Local & International</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="duties">
-                    <h3>Duties</h3>
-                    <div class="space-10px">
-                        <p>- Correspondence</p>
-                        <p>- Collecting & updating - daily reports</p>
-                        <p>- Database</p>
-                        <p>- Local & International</p>
-                    </div>
-                </div>
+                <h3 class="underline align-center machines-title" id="gallery">Gallery</h3>
 
                 <div class="images">
                     <div class="img-wrapper"><img src="./img/1.jpeg" alt="Machine Image"></div>
@@ -93,20 +212,62 @@
                     <div class="img-wrapper"><img src="./img/10.jpeg" alt="Machine Image"></div>
                 </div>
 
-                <div class="contact-details">
-                    <h4>CONTACT DETAILS</h4>
-                    <p>TEL: +113360442</p>
-                    <p>CELL: +113360442</p>
-                    <p class="blue-col">info@engineeringreliablespl.co.za</p>
-                    <p class="blue-col">www.engineeringreliablespl.co.za</p>
+                <div class="contact-details flex">
+                    <h3 class="underline align-center machines-title" id="contact">Contact Details</h3>
+                    <div class="flex space-between width-80 col">
+                        <div class="contact-card flex align-center glow">
+                            <div class="icon_ flex">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <span>TEL: +113360442</span>
+                            <span>CELL: +27718925731</span>
+                        </div>
+                        <div class="contact-card flex align-center glow">
+                            <div class="icon_ flex">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <span>info@engineeringreliablespl.co.za
+                            </span>
+                        </div>
+                        <div class="contact-card flex align-center glow">
+                            <div class="icon_ flex">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <span>84 Anker Street, Ext 1, Brakpan, Johannesburg, South Africa</span>
+                        </div>
+                    </div>
                 </div>
-                
+
                 <div class="footer">
-                    <p> &copy; Engineering Reliable Supplier | 
-                        <script>new Date().getFullYear();</script> Designed by <a class="no-deco blue-col" href="https://webggoru.co.za">WEBGOORU</a></p>
+                  <p> &copy; <script>document.write(new Date().getFullYear())</script> | Engineering Reliable Supplier  <!--  |
+                        <script>new Date().getFullYear();</script> Designed by <a class="no-deco blue-col"
+                            href="https://webggoru.co.za">WEBGOORU</a> -->
+                    </p>
                 </div>
             </div>
         </section>
+        <div class="icon-menu">
+            <div class="flex col align-center">
+                <i class="fa fa-home"></i>
+                <label><a class="no-deco mob-link" href="#home">Home</a></label>
+            </div>
+            <div class="flex col align-center">
+                <i class="fa fa-gear"></i>
+                <label><a class="no-deco mob-link" href="#machines">Machines</a></label>
+            </div>
+            <div class="flex col align-center">
+                <i class="fa fa-user"></i>
+                <label><a class="no-deco mob-link" href="#admin">Admin</a></label>
+            </div>
+            <div class="flex col align-center">
+                <i class="fa fa-file-image-o"></i>
+                <label><a class="no-deco mob-link" href="#gallery">Gallery</a></label>
+            </div>
+            <div class="flex col align-center">
+                <i class="fa fa-phone"></i>
+                <label><a class="no-deco mob-link" href="#contact">Contact</a></label>
+            </div>
+        </div>
     </main>
 </body>
 
